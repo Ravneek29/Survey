@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<style>
+h1 {text-align: center;}
+div.a{
+line-height: 2.5;
+}
+p.inset {border-style: inset;}
+
+</style>
+</head>
+
+<body style="background-color:LightGray;">
+<h1 style="font-size:30px;"> <p class="inset">Survey for Phone Usage</p></h1>
+<div class="a">
+<p> Name: <input type="text"> <br> E-mail: <input type="text">  
+ 
+<br>
+
+<label for="Gender">Gender:</label>
+
+<select name="gender" id="gender">
+  <option value="--Select--">--Select--</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+</select>
+<br>
+
+<label for="Age">What age group do you belong to?</label>
+
+<select name="Age" id="Age">
+  <option value="--Select--">--Select--</option>
+  <option value="18-21">18-21</option>
+  <option value="22-25">22-25</option>
+  <option value="26-30">26-30</option>
+</select>
+<br>
+
+<label for="question">What do you use your phone for?</label><br>
+<input type="checkbox" id="q1" name="q1" value="Productivity">
+<label for="q1"> Productivity</label><br>
+<input type="checkbox" id="q2" name="q2" value="Reading">
+<label for="q2"> Reading</label><br>
+<input type="checkbox" id="q3" name="q3" value="Social">
+<label for="q3"> Social</label><br>
+</div>
+</p> 
+
+<p> 
+<label for="question">Do you think you use your phone way too much?</label>
+<input type="radio" name="YES" value=1>Yes
+<input type="radio" name="No" value=2>No
+<br>
+ If you selected Yes, why?: <input type="text">
+</p>
+
+<form method="post" action="mailto:ravneek.bhullar1@gmail.com" >
+<input type="submit" value="Send Email" /> 
+</form>
+
+</body>
+
+</html>
